@@ -38,7 +38,7 @@ function App() {
     <div className="App">
       {devices.length > 1 && (
         <>
-          <label htmlFor="camera-select">Camera:</label>
+          <label htmlFor="camera-select">Camera hey:</label>
           <select id="camera-select" onChange={e => setDeviceId(e.target.value)}>
             {devices.map(device => (
               <option value={device.deviceId}>{device.label}</option>
